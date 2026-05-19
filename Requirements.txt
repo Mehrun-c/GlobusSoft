@@ -1,0 +1,22 @@
+# Requirements for app , tarin , test 
+1.sklearn ,cv2, numpy 
+2.standardscaler , classification_report , accuracy_score
+3.dataset 
+4.SVM Model
+opencv-python>=4.8.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+scipy>=1.11.0
+ 
+# API
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
+pydantic>=2.0.0
+
+
+├── task2_train.py      # Training script (run once to build the model)
+├── task2_test.py       # CLI testing script (load model & predict)
+├── app.py              # FastAPI service
+├── requirements.txt    # Python dependencies
+└── README.md
